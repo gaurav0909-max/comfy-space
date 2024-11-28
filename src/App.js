@@ -3,7 +3,8 @@ import React from 'react';
 import Hero from './components/hero';
 import Clients from './components/clients';
 import CoworkingSpace from './components/coworking-space';
-import Gallery from './components/grid-gallery';
+import Decoration from './components/decoration';
+import Pricing from './components/pricing';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Hero />
       <Clients />
       <CoworkingSpace/>
-      <Gallery/>
+      <Decoration/>
+      <Pricing/>
     </div>
   );
 }
