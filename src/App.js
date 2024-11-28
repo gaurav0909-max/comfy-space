@@ -5,6 +5,8 @@ import Clients from './components/clients';
 import CoworkingSpace from './components/coworking-space';
 import Decoration from './components/decoration';
 import Pricing from './components/pricing';
+import Customers from './components/customers';
+import Blogs from './components/Blogs';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <CoworkingSpace/>
       <Decoration/>
       <Pricing/>
+      <Customers/>
+      <Blogs/>
     </div>
   );
 }
