@@ -6,7 +6,9 @@ import CoworkingSpace from './components/coworking-space';
 import Decoration from './components/decoration';
 import Pricing from './components/pricing';
 import Customers from './components/customers';
-import Blogs from './components/Blogs';
+import Blogs from './components/blogs';
+import Subscription from './components/subscription';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Pricing/>
       <Customers/>
       <Blogs/>
+      <Subscription/>
+      <Footer/>
     </div>
   );
 }

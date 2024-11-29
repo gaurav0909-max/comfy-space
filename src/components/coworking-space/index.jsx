@@ -2,9 +2,7 @@ import React from 'react';
 import {
     FaUsers,
     FaWifi,
-    FaMapMarkerAlt,
     FaExpandArrowsAlt,
-    FaPause
 } from 'react-icons/fa';
 
 const CoworkingSpace = () => {
@@ -35,28 +33,28 @@ const CoworkingSpace = () => {
                 backgroundColor: '#fafafa'
             }}
         >
-            <div className="container mx-auto px-4 py-16 max-w-[1234px]">
+            <div className="container mx-auto px-4 py-16 max-w-full lg:max-w-[1234px]">
 
-                <div className="grid md:grid-cols-2 gap-12 items-center">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     {/* Left Side (Text and Details) */}
                     <div className="space-y-8">
                         {/* Title */}
-                        <h2 className="text-[46px] leading-[65px] tracking-[-0.5px] font-normal text-[#0F2137] font-sans max-w-[478px]">
+                        <h2 className="text-[36px] sm:text-[46px] leading-[45px] sm:leading-[65px] tracking-[-0.5px] font-normal text-[#0F2137] font-sans max-w-[478px]">
                             Some good place to where can build your startup business
                         </h2>
 
                         {/* Description */}
-                        <p className="text-[16px] leading-[30px] text-[#687381] font-normal max-w-[90%]">
+                        <p className="text-[14px] sm:text-[16px] leading-[26px] sm:leading-[30px] text-[#687381] font-normal max-w-[90%]">
                             Coworking offers beautifully crafted workspaces where people can create, connect,
                             and grow their businesses at prime locations in multiple cities.
                         </p>
 
                         {/* Features Grid */}
-                        <div className="flex justify-start items-start space-x-3">
+                        <div className="flex flex-wrap justify-start items-start gap-4 sm:gap-6 md:gap-8">
                             {spaceFeatures.map((feature, index) => (
                                 <div
                                     key={index}
-                                    className="flex-none w-full sm:w-1/2 md:w-1/3 bg-[#fbffff] py-6 px-3 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-500 ease-in-out"
+                                    className="flex-none w-full sm:w-1/2 lg:w-1/3 bg-[#fbffff] py-6 px-4 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-500 ease-in-out"
                                 >
                                     <div className="flex flex-col items-start text-left space-y-4">
                                         {/* Dynamic Icon */}
@@ -76,7 +74,6 @@ const CoworkingSpace = () => {
                             ))}
                         </div>
 
-
                     </div>
 
                     {/* Right Side (Image) */}
@@ -84,11 +81,11 @@ const CoworkingSpace = () => {
                         <img
                             src="/Mask Group.jpg"
                             alt="Coworking Space"
-                            className="w-full h-[640px] object-cover rounded-xl transform group-hover:scale-105 transition-transform duration-300"
+                            className="w-full h-[480px] sm:h-[640px] object-cover rounded-xl transform group-hover:scale-105 transition-transform duration-300"
                         />
 
                         {/* Absolute positioned chip */}
-                        <div className="absolute top-10 left-[-70px] bg-[#8D448B] text-white text-sm font-semibold px-4 py-6 rounded-md flex items-center space-x-4">
+                        <div className="absolute top-[-20px] left-[20px] md:top-10 md:left-[-70px] bg-[#8D448B] text-white text-sm font-semibold px-4 py-6 rounded-md flex items-center space-x-4">
                             {/* SVG Icon with progress indicator */}
                             <div className="flex flex-col items-center space-y-1">
                                 <img
@@ -107,10 +104,8 @@ const CoworkingSpace = () => {
                                 <p className=" w-[173px] font-dm-sans font-medium text-[14px] leading-none tracking-[-0.5px] text-white opacity-60">
                                     442 Broadway, New York
                                 </p>
-
                             </div>
                         </div>
-
                     </div>
 
                 </div>
