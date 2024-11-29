@@ -6,7 +6,7 @@ import CoworkingSpace from './components/coworking-space';
 import Decoration from './components/decoration';
 import Pricing from './components/pricing';
 import Customers from './components/customers';
-import Blogs from './components/blogs';
+import Blogs from './components/Blogs';
 import Subscription from './components/subscription';
 import Footer from './components/footer';
 
