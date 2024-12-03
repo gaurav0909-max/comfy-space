@@ -68,7 +68,7 @@ const PricingCard = ({ recommended, crossIcon, name, isMonthly }) => {
             {isMonthly ? (name === "Family Pack" ? "$49.99/mo" : "$29.99/mo") : (name === "Family Pack" ? "$499.99/yr" : "$299.99/yr")}
           </span>
         </div>
-        <button className="bg-[#8D448B] text-white px-4 py-2 mt-4 sm:mt-0 rounded-md flex items-center">
+        <button className="bg-[#8D448B] text-white px-4 py-2 mt-4 sm:mt-0 rounded-md flex items-center" aria-label='forward'>
           <IoArrowForward />
         </button>
       </div>

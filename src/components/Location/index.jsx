@@ -9,8 +9,7 @@ const LocationCard = () => {
 
     useEffect(() => {
         if (globeRef.current) {
-            // Set the globe view to India initially (zoom in)
-            globeRef.current.pointOfView(indiaCoordinates, 2000); // Adjust the zoom speed and target point
+            globeRef.current.pointOfView(indiaCoordinates, 2000); 
         }
     }, []);
 

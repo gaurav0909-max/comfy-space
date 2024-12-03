@@ -1,11 +1,4 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
-/* In your CSS file (e.g., styles.css) */
-.rsm-geographies {
-    width: 100%; /* Adjust the width */
-    height: 600px; /* Set a fixed height or any size you prefer */
-  }
   

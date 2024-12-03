@@ -41,7 +41,7 @@ const Card = () => {
 
             {/* Subscribe Button */}
             <button className="w-full h-12 bg-[#8D448B] text-white rounded-lg text-lg font-medium hover:bg-[#7d2f74] 
-                               focus:outline-none focus:ring-2 focus:ring-[#8D448B] focus:ring-opacity-50 transition-all duration-300 ease-in-out">
+                    focus:outline-none focus:ring-2 focus:ring-[#8D448B] focus:ring-opacity-50 transition-all duration-300 ease-in-out">
                 Subscribe
             </button>
         </div>
