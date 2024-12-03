@@ -6,7 +6,7 @@ const Pricing = () => {
   const [isMonthly, setIsMonthly] = useState(true); // State to manage selected duration
 
   return (
-    <div className="pricing-section w-full h-full bg-[#020718] px-4">
+    <div className="pricing-section w-full h-full bg-[#0b1120] px-4">
       {/* Top Section */}
       <div className="top-section flex flex-col justify-center items-center py-6 gap-3">
         <p className="text-white text-2xl md:text-3xl font-semibold leading-8 md:leading-10 text-center">

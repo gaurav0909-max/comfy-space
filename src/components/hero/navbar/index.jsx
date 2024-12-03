@@ -7,10 +7,11 @@ const Navbar = () => {
 
   const navLinks = [
     { href: "#home", label: "Home" },
-    { href: "#advertise", label: "Advertise" },
-    { href: "#supports", label: "Supports" },
-    { href: "#contact", label: "Contact" },
-    { href: "#about-us", label: "About Us" }
+    { href: "#locations", label: "Advertise" },
+    { href: "#workspaces", label: "Supports" },
+    { href: "#blog", label: "Contact" },
+    { href: "#about-us", label: "About Us" },
+    { href: "#membership", label: "Membership" },
   ];
 
   const toggleMenu = () => {

@@ -9,6 +9,7 @@ import Customers from './components/customers';
 import Blogs from './components/Blogs';
 import Subscription from './components/subscription';
 import Footer from './components/footer';
+import LocationCard from './components/Location';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Pricing/>
       <Customers/>
       <Blogs/>
+      <LocationCard/>
       <Subscription/>
       <Footer/>
     </div>
