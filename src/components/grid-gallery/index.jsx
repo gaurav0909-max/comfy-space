@@ -1,17 +1,10 @@
+import { GalleryImages } from "../../data/gallery-images";
 export default function Gallery() {
-    const images = [
-        { src: "/images/1.png", alt: "front working space" },
-        { src: "/images/3.png", alt: "guest meeting room" },
-        { src: "/images/4.png", alt: "guest rest room" },
-        { src: "/images/5.png", alt: "single working space" },
-        { src: "/images/6.png", alt: "kitchen space" },
-        { src: "/images/7.png", alt: "meeting corner" },
-    ];
 
     return (
         <div className="container mx-auto px-5 py-10 lg:px-24 lg:pt-12">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                {images.map((image, index) => (
+                {GalleryImages.map((image, index) => (
                     <div
                         key={index}
                         className="relative overflow-hidden rounded-lg shadow-lg group 

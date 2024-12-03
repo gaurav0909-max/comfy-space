@@ -3,8 +3,8 @@ import PricingCard from "./pricing-card";
 import PricingToggle from "./pricing-toggle";
 
 const Pricing = () => {
-  const [isMonthly, setIsMonthly] = useState(true); 
-  
+  const [isMonthly, setIsMonthly] = useState(true);
+
   return (
     <div className="pricing-section w-full h-full bg-[#0b1120] px-4">
       {/* Top Section */}

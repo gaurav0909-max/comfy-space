@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaUsers, FaWifi, FaExpandArrowsAlt } from 'react-icons/fa';
 import FeaturesGrid from './features-grid';
 import HeroImage from './hero-image';
 
