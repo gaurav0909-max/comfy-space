@@ -1,4 +1,5 @@
 import { IoLocationSharp } from "react-icons/io5";
+import DropdownWithLocationPin from "./dropdown-location";
 
 const Card = () => {
     return (
@@ -19,24 +20,7 @@ const Card = () => {
                 <label htmlFor="workspace" className="block text-gray-600 font-medium mb-2">
                     Find Workplace
                 </label>
-                <div className="relative">
-                    <select
-                        id="workspace"
-                        className="w-full h-12 bg-white text-gray-700 border-[1px] border-gray-300 rounded-lg
-                                   focus:ring-2 focus:ring-[#8D448B] focus:border-[#8D448B] pl-12 pr-4
-                                   appearance-none cursor-pointer transition-all duration-300 ease-in-out outline-none
-                                   focus:shadow-md focus:rounded-lg"
-                    >
-                        <option className="px-4 py-3 rounded-md font-medium">Chicago, New York</option>
-                        <option className="px-4 py-3 rounded-md font-medium">Los Angeles</option>
-                        <option className="px-4 py-3 rounded-md font-medium">San Francisco</option>
-                    </select>
-
-                    {/* Location Pin Icon */}
-                    <span className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-600">
-                        <IoLocationSharp className="h-5 w-5" />
-                    </span>
-                </div>
+                <DropdownWithLocationPin/>
             </div>
 
             {/* Subscribe Button */}

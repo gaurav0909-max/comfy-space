@@ -9,14 +9,14 @@ const LocationCard = () => {
 
     useEffect(() => {
         if (globeRef.current) {
-            globeRef.current.pointOfView(indiaCoordinates, 2000); 
+            globeRef.current.pointOfView(indiaCoordinates, 2000);
         }
     }, []);
 
     return (
         <div className="w-full h-full bg-[#d6d9df] p-8">
             <div className="flex flex-col md:flex-row bg-[#d6d9df] bg-opacity-70 backdrop-blur-3xl shadow-xl rounded-lg 
-                 overflow-hidden max-w-4xl mx-auto p-6 border border-white/20 border-blue-800">
+                 overflow-hidden max-w-4xl mx-auto p-6 border border-blue-800">
                 {/* Left Section: Map */}
                 <div className="w-full md:w-1/2 bg-transparent flex items-center justify-center p-4 relative rounded-lg 
                      overflow-hidden">
@@ -35,7 +35,7 @@ const LocationCard = () => {
                             {
                                 lat: indiaCoordinates.lat,
                                 lng: indiaCoordinates.lng,
-                                size: 0.5, 
+                                size: 0.5,
                             },
                         ]}
                         pointRadius={0.5} // Adjusted radius for better visibility

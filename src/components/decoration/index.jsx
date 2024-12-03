@@ -1,4 +1,3 @@
-import { FaGreaterThan } from "react-icons/fa";
 import Gallery from "../grid-gallery";
 import { PiGreaterThan } from "react-icons/pi";
 

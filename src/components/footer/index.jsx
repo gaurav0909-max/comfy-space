@@ -12,10 +12,10 @@ const Footer = () => {
 
                 {/* Navigation Links */}
                 <div className="flex flex-wrap justify-center md:justify-end space-x-6">
-                    <a href="#" className="text-sm text-[#A0AEC0] hover:text-white mb-2 md:mb-0">Home</a>
-                    <a href="#" className="text-sm text-[#A0AEC0] hover:text-white mb-2 md:mb-0">Advertise</a>
-                    <a href="#" className="text-sm text-[#A0AEC0] hover:text-white mb-2 md:mb-0">Supports</a>
-                    <a href="#" className="text-sm text-[#A0AEC0] hover:text-white mb-2 md:mb-0">FAQ</a>
+                    <a href="#hero" className="text-sm text-[#A0AEC0] hover:text-white mb-2 md:mb-0">Home</a>
+                    <a href="#advertise" className="text-sm text-[#A0AEC0] hover:text-white mb-2 md:mb-0">Advertise</a>
+                    <a href="#supports" className="text-sm text-[#A0AEC0] hover:text-white mb-2 md:mb-0">Supports</a>
+                    <a href="#faq" className="text-sm text-[#A0AEC0] hover:text-white mb-2 md:mb-0">FAQ</a>
                 </div>
             </div>
         </div>

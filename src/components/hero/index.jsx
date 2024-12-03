@@ -4,7 +4,8 @@ import Navbar from "./navbar";
 const Hero = () => {
   return (
     <div className="relative w-screen h-screen bg-cover bg-center"
-      style={{ backgroundImage: "url('/BG.jpg')" }} // Reference the image from the public folder
+      id="hero"
+      style={{ backgroundImage: "url('/BG.webp')" }} // Reference the image from the public folder
     >
       {/* Full-screen overlay */}
       <div className="absolute inset-0 bg-gray-700 opacity-20 z-0"></div> {/* Ensure the overlay is below other content */}
